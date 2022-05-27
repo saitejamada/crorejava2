@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html  lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>]
+<style>
+*{font-size:22px;font-family:cursive}
+body{background-color:lightblue}
+#super{height:450px;background-color:white;width:700px;border-radius:20px;margin-top:100px;
+margin-left:300px;}
+label{margin:30px;padding:30px}
+input{border-radius:15px;margin:10px;padding:10px}
+#btn{margin-left:200px}
+</style>
+</head>
+<body>
+<div>
+<h1>Displaying User</h1>
+<table border=5px>
+<tr>
+<th>userid</th>
+<th>password</th>
+<th>type</th>
+</tr>
+<tr>
+<td th:text="${list.userid}"></td>
+<td th:text="${list.password}"></td>
+<td th:text="${list.type}"></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

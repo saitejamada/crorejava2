@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+*{font-size:22px;font-family:cursive;background-color:lightblue}
+.super{display:flex;}
+</style>
+</head>
+<body>
+<h1>Welcome Administration</h1>
+<div  class="super">
+<div>
+<form action="home">
+<input type="submit" value="adduser">
+</form>
+</div>
+<div>
+<form action="viewth">
+<input type="submit" value="viewAlltheater">
+</form>
+</div>
+<div>
+<form action="thea">
+<input type="submit" value="addTheater">
+</form>
+</div>
+<div>
+<form action="viewuser">
+<input type="submit" value="ViewallUsers">
+</form>
+</div>
+<div>
+<form action="/deluser">
+<input type="submit" value="deleteUsers">
+</form>
+</div>
+<div>
+<form action="/delthe">
+<input type="submit" value="deleteTheater">
+</form>
+</div>
+<div>
+<form action="/vius">
+<input type="submit" value="ViewSeletedUser">
+</form>
+</div>
+<div>
+<form action="/vith">
+<input type="submit" value="ViewOneTheatre">
+</form>
+</div>
+<form action="/upth">
+<input type="submit" value="updateTheatre">
+</form>
+</div>
+</div>
+</body>
+</html>

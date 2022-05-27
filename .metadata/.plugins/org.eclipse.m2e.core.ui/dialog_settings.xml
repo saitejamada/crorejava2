@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\teja\workspace\EmployeeMVC\src\main\java\com\emp\EmployeeController.java"/>
+			<item value="C:\teja\workspace\BookHinernate1\pom.xml"/>
+			<item value="C:\teja\workspace\BookHinernate1"/>
+			<item value="C:\teja\workspace\BookHibernate\src\main\java\com\book\App.java"/>
+			<item value="C:\teja\workspace\StudentMaven\pom.xml"/>
+			<item value="C:\teja\workspace\StudentMaven"/>
+			<item value="C:\teja\workspace\EmployeeMaven"/>
+			<item value="C:\teja\workspace"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.book"/>
+			<item value="com.emp"/>
+			<item value="com.railway"/>
+		</list>
+		<list key="groupId">
+			<item value="com.book"/>
+			<item value="com.emp"/>
+			<item value="com.railway"/>
+		</list>
+		<list key="artifactId">
+			<item value="BookApplicationMVCHibernate"/>
+			<item value="EmployeeValidation"/>
+			<item value="RailwayReservation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\teja\Downloads\SpringEmployee"/>
+			<item value="C:\Users\teja\Downloads\BookProject"/>
+			<item value="C:\Users\teja\Downloads\Online Shopping Project Html &amp; CSS\Online Shopping Project Html &amp; CSS"/>
+			<item value="C:\Users\teja\Downloads\Book\Book"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

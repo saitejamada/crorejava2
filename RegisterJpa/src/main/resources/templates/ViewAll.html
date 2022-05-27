@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Displaying All User Details</h1>
+<table border=5px>
+<tr>
+<th>UserId</th>
+<th>Age</th>
+<th>password</th>
+<th>email</th>
+<th>gender</th>
+<th>qualification</th>
+<th>mobile number</th>
+</tr>
+<tr th:each="reg : ${list}">
+<td th:text="${reg.userid}"></td>
+<td th:text="${reg.age}"></td>
+<td th:text="${reg.password}"></td>
+<td th:text="${reg.email}"></td>
+<td th:text="${reg.gender}"><</td>
+<td th:text="${reg.qualification}"></td>
+<td th:text="${reg.mobileno}"></td>
+</tr>
+</table>
+</body>
+</html>

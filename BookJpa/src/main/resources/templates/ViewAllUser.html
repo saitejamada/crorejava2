@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Displaying All Books</h1>
+<table border=5px>
+<tr>
+<th>UserId</th>
+<th>password</th>
+<th>Type</th>
+</tr>
+<tr th:each="reg : ${list}">
+<td th:text="${reg.userid}"></td>
+<td th:text="${reg.password}"></td>
+<td th:text="${reg.Type}"></td>
+</tr>
+</table>
+</body>
+</html>

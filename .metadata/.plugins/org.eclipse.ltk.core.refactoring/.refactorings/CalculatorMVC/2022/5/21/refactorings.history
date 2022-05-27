@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;com.hello&apos; to &apos;com.calculator&apos;" description="Move &apos;com.hello&apos; to &apos;com.calculator&apos;" destination="target/m2e-wtp/web-resources/META-INF/maven/com.calculator" element1="target/m2e-wtp/web-resources/META-INF/maven/com.hello" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1652954851806" updateReferences="true"/>
+</session>

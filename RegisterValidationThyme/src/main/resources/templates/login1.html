@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+button {
+padding: 10px;
+}
+span {
+color: red;
+font-style: italic;
+}
+form {
+display: table;
+}
+form div {
+display: table-row;
+}
+label, input, span, select {
+display: table-cell;
+margin: 5px;
+text-align: left;
+}
+
+form div div {
+display: table-cell;
+}
+</style>
+</head>
+<body>
+
+
+<div align="center">
+<h1>New User Register Form</h1>
+
+
+<form action="#" th:action="@{/register}" method="post" th:object="${reg}">
+<div>
+<label>UserID</label>
+<input type="text" th:field="*{userid}"/><br/>
+<span th:if="${#fields.hasErrors('userid')}" th:errors="*{userid}">UserID error</span>
+</div>
+<div>
+<label>Password:</label>
+<input type="password" th:field="*{password}" />
+<span th:if="${#fields.hasErrors('password')}" th:errors="*{password}">password error</span>
+</div>
+
+<div>
+<label>Email:</label>
+<input type="email" th:field="*{email}" />
+<span th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email id error</span>
+</div>
+
+<div>
+<label>gender:</label>
+<input type="text" th:field="*{gender}" />
+</div>
+
+<div>
+<label>qualification:</label>
+<input type="text" th:field="*{qualification}" />
+</div>
+
+<div>
+<label>Mobile Number:</label>
+<input type="text" th:field="*{mobileno}" />
+<span th:if="${#fields.hasErrors('mobileno')}" th:errors="*{mobileno}">mobileno error</span>
+</div>
+
+<div>
+<label>age:</label>
+<input type="number" th:field="*{age}" />
+<span th:if="${#fields.hasErrors('age')}" th:errors="*{age}">age error</span>
+</div>
+
+<input type="submit" value="submit">
+<input type="reset" value="cancel">
+</form>
+
+</div>
+</body>
+</html>

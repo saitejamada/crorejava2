@@ -1,0 +1,12 @@
+package com.student.bean;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Student {
+
+	int sid;
+	String name;
+	String course;
+	
+}
